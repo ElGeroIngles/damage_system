@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "inv_changed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:armor/update"
+    }
+  }
+  

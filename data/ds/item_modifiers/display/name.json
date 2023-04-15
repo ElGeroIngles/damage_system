@@ -1,0 +1,56 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        [
+          {
+            "text": "[Lvl ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "nbt": "ArmorItems[3].tag.lvl",
+            "entity": "@s",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "] ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "selector": "@e[type=armor_stand,tag=display_hp,limit=1,sort=nearest]",
+            "color": "green",
+            "italic": false
+          },
+          {
+            "text": " "
+          },
+          {
+            "score": {
+              "name": "@s",
+              "objective": "health"
+            },
+            "color": "red",
+            "italic": false
+          },
+          {
+            "text": "/",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "@s",
+              "objective": "max_health"
+            },
+            "color": "red",
+            "italic": false
+          }
+        ]
+      ]
+    }
+  ]
+  

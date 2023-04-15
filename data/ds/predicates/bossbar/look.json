@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "type_specific": {
+        "type": "player",
+        "looking_at": {
+          "nbt": "{ArmorItems:[{},{},{},{tag:{mob_info:1}}]}",
+          "distance": {
+            "absolute": {
+              "min": 0,
+              "max": 5.5
+            }
+          }
+        }
+      }
+    }
+  }
+  
