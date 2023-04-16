@@ -9,4 +9,3 @@ scoreboard players operation p_total_crt_dmg wp_stats += p_crit_dmg wp_stats
 scoreboard players operation p_total_crit_chn wp_stats = @s crit_chn
 scoreboard players operation p_total_crit_chn wp_stats += p_crit_chn wp_stats
 
-execute at @s store result score 1-100 wp_stats run loot spawn ~ ~ ~ loot ds:1-100

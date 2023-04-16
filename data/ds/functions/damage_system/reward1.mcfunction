@@ -17,6 +17,8 @@ scoreboard players operation p_str_def defense_calc = m_total_str wp_stats
 scoreboard players operation p_str_def defense_calc += p_total_defens defense_calc
 scoreboard players operation m_dmg_dealt wp_stats /= p_str_def defense_calc
 
+execute store result score 1-100 wp_stats run loot spawn ~ ~ ~ loot ds:1-100
+
 execute at @s if score m_total_crit_chn wp_stats >= 1-100 wp_stats run scoreboard players operation m_dmg_dealt wp_stats *= m_total_crt_dmg wp_stats
 
 scoreboard players add m_dmg_dealt wp_stats 1

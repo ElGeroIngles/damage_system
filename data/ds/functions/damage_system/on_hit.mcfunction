@@ -15,6 +15,8 @@ scoreboard players operation m_str_def defense_calc = p_total_str wp_stats
 scoreboard players operation m_str_def defense_calc += m_total_defens defense_calc
 scoreboard players operation p_dmg_dealt wp_stats /= m_str_def defense_calc
 
+execute at @s store result score 1-100 wp_stats run loot spawn ~ ~ ~ loot ds:1-100
+
 execute if score p_total_crit_chn wp_stats >= 1-100 wp_stats run scoreboard players operation p_dmg_dealt wp_stats *= p_total_crt_dmg wp_stats
 
 scoreboard players add p_dmg_dealt wp_stats 1
@@ -27,8 +29,6 @@ scoreboard players operation @s health -= p_dmg_dealt wp_stats
 
 execute at @s run function ds:damage_indicators/summon
 execute at @s run function ds:display/update
-
-kill @e[type=arrow,tag=old]
 
 scoreboard players set @p[tag=p_attacker] hp_regen_timer 0
 scoreboard players reset 1-100 wp_stats

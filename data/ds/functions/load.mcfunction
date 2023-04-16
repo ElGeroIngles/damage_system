@@ -69,4 +69,5 @@ scoreboard objectives add hp_regen_timer dummy
 
 tellraw @a {"text":"Datapack reloaded succesfully!","color":"green"}
 tellraw @a ["",{"text":"Damage system - ","color":"gold"},{"text":"By ElGeroIngles","color":"blue"}]
+tellraw @a {"text":"[Credits]","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://youtu.be/YZfCBBvOMN4"},"hoverEvent":{"action":"show_text","contents":[{"text":"Cloud Wolf (Click to go to the video!)","color":"yellow"}]}}
 execute as @a at @s run playsound minecraft:entity.player.levelup ambient @s
