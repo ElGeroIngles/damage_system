@@ -1,0 +1,1 @@
+give @s stone_hoe{display:{Name:'{"text":"Super azada","color":"red","italic":false}'},Unbreakable:1b,strength:100,crit_dmg:35,crit_chn:15,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;-1151188920,-666809037,-1674186996,-970912194]}]} 1

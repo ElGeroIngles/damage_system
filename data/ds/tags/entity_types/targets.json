@@ -2,6 +2,7 @@
   "values": [
     "minecraft:zombie",
     "minecraft:husk",
-    "minecraft:skeleton"
+    "minecraft:skeleton",
+    "minecraft:enderman"
   ]
 }

@@ -4,8 +4,9 @@ advancement revoke @s only ds:on_hurt
 # Entity attacks player!
 # @s is player!
 # Formula: (((Strength * Strength) / (Strength + Defense)) * Crit_dmg) + 1 (Crit_dmg is only applied when a crit attack is done)
-execute unless entity @s[advancements={ds:m_is_arrow=true}] at @s as @e[tag=m_attacker,sort=nearest,limit=1] run function ds:damage_system/m_wp_stats
+execute unless entity @s[advancements={ds:m_is_arrow=true}] unless entity @s[advancements={ds:m_is_trident=true}] at @s as @e[tag=m_attacker,sort=nearest,limit=1] run function ds:damage_system/m_wp_stats
 execute if entity @s[advancements={ds:m_is_arrow=true}] at @s as @e[type=arrow,tag=old,sort=nearest,limit=1] run function ds:damage_system/am_wp_stats
+execute if entity @s[advancements={ds:m_is_trident=true}] at @s as @e[type=trident,tag=old,sort=nearest,limit=1] run function ds:damage_system/at_wp_stats
 
 execute store result score p_defens defense_calc run data get entity @s SelectedItem.tag.defens
 scoreboard players operation p_total_defens defense_calc = @s defens
