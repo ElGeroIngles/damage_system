@@ -5,7 +5,7 @@ Cualquien duda, error o sugerencia es bienvenida ;)
 [CREDITOS]
 
 -Cloud Wolf:
-https://youtu.be/Sm1pyXBJKuE
+https://youtu.be/YZfCBBvOMN4
 
 [BUGS] (Más o menos)
 Recuerda no hacer /reload mientras que lleves armadura custom puesta porque en load.mcfunction se nos cambia los stats manuelmente y se rompe nuetros stats (facilmente solucionable quitando las partes de código que nos cambian las stats en load.mcfunction)
