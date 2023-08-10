@@ -13,7 +13,7 @@ This datapack is for all of the datapack developers who need a custom stats syst
 
 ## Credits
 
-This datapack uses a datapack from [Cloud Wolf](https://www.youtube.com/@CloudWolfMinecraft) that basicly allows us to detect who the attacker is and who is the victim, I know that we have **/execute on** but this datapack was developed before that command was introduced, nonetheless it still works and it very powerfull. You can check out his datapack [here](https://youtu.be/YZfCBBvOMN4).
+This datapack uses a datapack from [Cloud Wolf](https://www.youtube.com/@CloudWolfMinecraft) that basicly allows us to detect who the attacker is and who is the victim, I know that we have **/execute on attacker** but this datapack was developed before that command was introduced, nonetheless it still works and it very powerfull. You can check out his datapack [here](https://youtu.be/YZfCBBvOMN4).
 
 ## How to use
 
