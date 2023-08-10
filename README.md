@@ -24,7 +24,7 @@ I made a video in [my youtube channel](https://www.youtube.com/@elgeroingles) ex
 
 ## Author
 
-- [@ElGeroIngles](https://modrinth.com/user/ElGeroIngles)
+- [@ElGeroIngles](https://github.com/ElGeroIngles)
 
 
 ## Known bugs
