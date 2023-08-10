@@ -19,9 +19,7 @@ This datapack uses a datapack from [Cloud Wolf](https://www.youtube.com/@CloudWo
 
 I made a video in my youtube channel explaining how it works and how to add custom weapons, armor and mobs with custom stats.
 
-<iframe width="420" height="315"
-src="https://youtu.be/NzVVGIwblR4">
-</iframe>
+[![video](https://img.youtube.com/vi/NzVVGIwblR4/0.jpg)](https://www.youtube.com/watch?v=NzVVGIwblR4)
 
 
 ## Author
