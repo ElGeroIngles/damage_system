@@ -11,7 +11,7 @@ This datapack is for all of the datapack developers who need a custom stats syst
 - Custom weapon stats
 - Multiplayer compatibility
 
-## Credits:
+## Credits
 
 This datapack uses a datapack from [Cloud Wolf](https://www.youtube.com/@CloudWolfMinecraft) that basicly allows us to detect who the attacker is and who is the victim, I know that we have **/execute on** but this datapack was developed before that command was introduced, nonetheless it still works and it very powerfull. You can check out his datapack [here](https://youtu.be/YZfCBBvOMN4).
 
@@ -29,7 +29,7 @@ I made a video in [my youtube channel](https://www.youtube.com/@elgeroingles) ex
 
 ## Known bugs
 
-It is not an actual bug but its important that I say it: Don't do /reload when wearing a custom armor, this is due to the fact that in **reload.mcfunction** we reset the stats of the player, just remove that and put it in a separate function.
+It is not an actual bug but its important that I say it: Don't do /reload when wearing a custom armor, this is due to the fact that in **load.mcfunction** we reset the stats of the player, just remove that and put it in a separate function.
 
 
 ## Bug Report/Suggestions
