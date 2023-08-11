@@ -21,6 +21,11 @@ I made a video in [my youtube channel](https://www.youtube.com/@elgeroingles) ex
 
 [![video](https://img.youtube.com/vi/NzVVGIwblR4/0.jpg)](https://www.youtube.com/watch?v=NzVVGIwblR4)
 
+## FAQ
+
+#### Q: Does this datapack work on older versions?
+
+A: Maybe, personally I haven't tested in older versions than 1.19 but I think it should work all the way down to 1.13. Just download the 1.19 version with the resourcepack and I think it should work, just change inside the pack.mcmeta of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (take in mind that it may not work).
 
 ## Author
 
