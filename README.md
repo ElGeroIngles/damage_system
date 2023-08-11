@@ -27,6 +27,18 @@ I made a video in [my youtube channel](https://www.youtube.com/@elgeroingles) ex
 
 A: Maybe, personally I haven't tested in older versions than 1.19 but I think it should work all the way down to 1.13. Just download the 1.19 version with the resourcepack and I think it should work, just change inside the pack.mcmeta of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (take in mind that it may not work).
 
+#### Q: Does it have multiplayer compatibility?
+
+A: Yes it does.
+
+#### Q: Can I modify the datapack and redistribute it?
+
+A: Yes you can, but only say who the original creator is ([me](https://github.com/ElGeroIngles)) and if you link the original [Modrinth page](https://modrinth.com/datapack/gna) somewhere noticeable in the project.
+
+#### Q: Are you going to make more datapacks?
+
+A: Yes, I think I already know what my next project will be but only time will say.
+
 ## Author
 
 - [@ElGeroIngles](https://github.com/ElGeroIngles)
