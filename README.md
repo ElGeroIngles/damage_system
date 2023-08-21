@@ -9,7 +9,7 @@ This datapack is for all of the datapack developers who need a custom stats syst
 - Custom player stats
 - Custom armor stats and full set bonuses
 - Custom weapon stats
-- Multiplayer compatibility
+- Multiplayer compatibility (?)
 
 ## Credits
 
@@ -29,7 +29,7 @@ A: Maybe, personally I haven't tested in older versions than 1.19 but I think it
 
 #### Q: Does it have multiplayer compatibility?
 
-A: Yes it does.
+A: Yes it does (in theory, I didn't tested it but it should).
 
 #### Q: Can I modify the datapack and redistribute it?
 
